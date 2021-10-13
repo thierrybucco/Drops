@@ -149,6 +149,7 @@ internal final class DropView: UIView {
         label.font = UIFont.preferredFont(forTextStyle: .subheadline).bold
         label.adjustsFontForContentSizeCategory = true
         label.adjustsFontSizeToFitWidth = true
+        label.minimumScaleFactor = 0.8
         return label
     }()
 
@@ -165,6 +166,7 @@ internal final class DropView: UIView {
         label.font = UIFont.preferredFont(forTextStyle: .subheadline)
         label.adjustsFontForContentSizeCategory = true
         label.adjustsFontSizeToFitWidth = true
+        label.minimumScaleFactor = 0.8
         return label
     }()
 
